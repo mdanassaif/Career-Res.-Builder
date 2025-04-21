@@ -1,9 +1,9 @@
 import React, { useState, useEffect } from 'react';
-import { AppHeader } from './components/AppHeader';
-import { Editor } from './components/Editor';
-import { ResumePreview } from './components/ResumePreview';
-import { PageLengthModal } from './components/PageLengthModal';
-import { defaultResume } from './lib/defaultResume';
+import { AppHeader } from '../components/AppHeader';
+import { Editor } from '../components/Editor';
+import { ResumePreview } from '../components/ResumePreview';
+import { PageLengthModal } from '../components/PageLengthModal';
+import { defaultResume } from '../lib/defaultResume';
 import { Toaster, toast } from 'sonner';
 import { jsPDF } from 'jspdf';
 import html2canvas from 'html2canvas';
